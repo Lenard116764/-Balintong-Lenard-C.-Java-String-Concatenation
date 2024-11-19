@@ -1,1 +1,14 @@
-
+STR1 "Lenard"
+STR2 "Balintong"
+LEN1 = 6.
+LEN2 = 9.
+SET I = 0.
+repeat step 7 and 8 while I < LEN1-1:
+STR3[I] = STR1[I].
+SET I = I+1.
+SET J = 0.
+repeat step 11 and 13 while I < (LEN1 + LEN2 - 2):
+STR3[I] = STR2[J].
+J = J+1.
+I = I+1
+EXIT.
